@@ -24,5 +24,5 @@ gcc Main.c -o app `pkg-config --cflags --libs gstreamer-1.0`
 
 ```bash
 brew install gstreamer
-brew install gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-rtsp-server
+brew install gst-plugins-base gst-libav gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-rtsp-server
 ```
