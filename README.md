@@ -27,6 +27,12 @@ brew install gstreamer
 brew install gst-plugins-base gst-libav gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-rtsp-server
 ```
 
+Install `gst-python` for Python bindings:
+
+```bash
+brew install gst-python
+```
+
 ## Ramblings
 
 Listen to an MJPEG stream, wrap it up into a mkv container and store it in a file:
