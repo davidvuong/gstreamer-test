@@ -26,7 +26,13 @@ brew install gst-python
 For Python3 support run with `--with-python3`:
 
 ```bash
-brew install gst-python --with-python3
+brew install gst-python --without-python --with-python3
+```
+
+If you don't have `--without-python`, you'll get an error (only supports either py2 or py3):
+
+```
+Error: Options --with-python and --with-python3 are mutually exclusive.
 ```
 
 ## Running
