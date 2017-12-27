@@ -23,6 +23,12 @@ Install `gst-python` for Python bindings:
 brew install gst-python
 ```
 
+For Python3 support run with `--with-python3`:
+
+```bash
+brew install gst-python --with-python3
+```
+
 ## Running
 
 ```bash
